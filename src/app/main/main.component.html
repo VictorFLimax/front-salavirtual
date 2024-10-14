@@ -1,0 +1,27 @@
+<div class="container">
+  <mat-toolbar >
+    <h1>Sala Virtual</h1>
+  </mat-toolbar>
+
+  <mat-drawer-container autosize>
+    <mat-drawer #drawer mode="side">
+      <div>
+        <a routerLink="sala">
+          <span>Sala</span>
+        </a>
+      </div>
+    </mat-drawer>
+
+    <div class="content">
+      <mat-tab-group>
+        <mat-tab label="Sala">
+          <div>
+            <router-outlet></router-outlet>
+          </div>
+        </mat-tab>
+        <mat-tab label="Second"> Content for the second tab </mat-tab>
+        <mat-tab label="Third"> Content for the third tab </mat-tab>
+      </mat-tab-group>
+    </div>
+  </mat-drawer-container>
+</div>

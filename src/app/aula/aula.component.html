@@ -1,0 +1,9 @@
+<div *ngIf="salaId">
+  <h2>Bem-vindo à {{ salaId }}</h2>
+  <p>Disciplina: {{ disciplina }}</p>
+  <p>Assunto: {{ assunto }}</p>
+</div>
+
+<div *ngIf="!salaId">
+  <p>Selecione uma sala para ver os detalhes.</p>
+</div>

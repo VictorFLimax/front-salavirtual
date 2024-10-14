@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pesquisa {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: left;
+  margin: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h2{
+  text-align: center;
+  margin:  30px;
+
+}
