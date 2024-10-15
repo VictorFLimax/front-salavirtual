@@ -18,10 +18,14 @@
 }
 h2{
   text-align: center;
+<<<<<<< HEAD
   font-size: 40px;
 }
 button {
   margin-top: 10px;
   box-shadow: #bfbaba 1px 1px 1px 1px;
+=======
+  margin:  30px;
+>>>>>>> 365acc673db325b234e23e52daf0fa5e40539d58
 
 }

@@ -41,6 +41,10 @@ export class SalaComponent implements OnInit {
 
 
   entrar(id) {
+<<<<<<< HEAD
     this.router.navigate([`sala/${id}`]).then();
+=======
+
+>>>>>>> 365acc673db325b234e23e52daf0fa5e40539d58
   }
 }

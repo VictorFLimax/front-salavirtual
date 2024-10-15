@@ -3,6 +3,7 @@
 }
 
 mat-toolbar{
+<<<<<<< HEAD
 
   padding: 30px;
   margin:  auto;
@@ -17,6 +18,18 @@ mat-icon{
 span{
   color: white;
   margin:  10px;
+=======
+  background: #f6f6f6;
+  padding: 40px;
+  margin:  auto;
+}
+mat-toolbar h1 {
+  font-size: 40px;
+  text-align: center;
+
+  margin: 10px auto;
+
+>>>>>>> 365acc673db325b234e23e52daf0fa5e40539d58
 }
 .container {
   display: flex;
@@ -31,7 +44,11 @@ mat-drawer-container {
     display: flex;
     flex-direction: column;
     border-radius: 0;
+<<<<<<< HEAD
     background-color: #064268;
+=======
+    background-color: black;
+>>>>>>> 365acc673db325b234e23e52daf0fa5e40539d58
 
     div {
       display: flex;
@@ -70,10 +87,15 @@ mat-drawer-container {
 }
 mat-drawer-container {
   height: 100%;
+<<<<<<< HEAD
 }
 a{
   text-decoration: none;
   color: white;
   font-size: 20px;
+=======
+
+
+>>>>>>> 365acc673db325b234e23e52daf0fa5e40539d58
 }
 

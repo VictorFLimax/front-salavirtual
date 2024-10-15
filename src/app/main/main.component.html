@@ -1,4 +1,5 @@
 <div class="container">
+<<<<<<< HEAD
   <mat-toolbar>
     <button className="botao_menu" (click)="drawer.toggle()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
@@ -6,10 +7,15 @@
     <span>Sala Virtual</span>
     <span class="example-spacer"></span>
 
+=======
+  <mat-toolbar >
+    <h1>Sala Virtual</h1>
+>>>>>>> 365acc673db325b234e23e52daf0fa5e40539d58
   </mat-toolbar>
 
   <mat-drawer-container autosize>
     <mat-drawer #drawer mode="side">
+<<<<<<< HEAD
       <ul>
         <li><a routerLink="/sala">Sala</a></li>
       </ul>
@@ -17,6 +23,25 @@
 
     <div class="content">
       <router-outlet></router-outlet>
+=======
+      <div>
+        <a routerLink="sala">
+          <span>Sala</span>
+        </a>
+      </div>
+    </mat-drawer>
+
+    <div class="content">
+      <mat-tab-group>
+        <mat-tab label="Sala">
+          <div>
+            <router-outlet></router-outlet>
+          </div>
+        </mat-tab>
+        <mat-tab label="Second"> Content for the second tab </mat-tab>
+        <mat-tab label="Third"> Content for the third tab </mat-tab>
+      </mat-tab-group>
+>>>>>>> 365acc673db325b234e23e52daf0fa5e40539d58
     </div>
   </mat-drawer-container>
 </div>
